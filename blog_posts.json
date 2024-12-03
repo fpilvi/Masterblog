@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "author": "Nacho Pancho",
+        "title": "Titel of my first post ",
+        "content": "Hello I am Nacho, welcome."
+    },
+    {
+        "id": 2,
+        "author": "Amelie Schneiderli",
+        "title": "This is the second Blog Post ",
+        "content": "Hello I am Amelie from Berlin."
+    },
+    {
+        "id": 3,
+        "author": "Florentine Moehrle ",
+        "title": "My first Blog ",
+        "content": "Hello, this is Flo and this is my first blog post. Enjoy! "
+    }
+]
