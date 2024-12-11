@@ -115,6 +115,12 @@ def update(post_id):
         post['content'] = request.form['content']
 
         blog_posts = load_blog_posts()
+
+        for i, current_post in enumerate(blog_posts):
+            if current_post['id'] == post_id:
+                blog_posts[i] = post
+                break
+
         save_blog_posts(blog_posts)
 
         return redirect(url_for('index'))
@@ -126,4 +132,4 @@ if __name__ == '__main__':
     """
     Start the Flask application.
     """
-    app.run(host="0.0.0.0", port=5001, debug=True)
+    app.run(host="0.0.0.0", port=5002, debug=True)

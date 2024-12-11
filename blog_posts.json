@@ -1,14 +1,20 @@
 [
     {
-        "id": 3,
-        "author": "Florentine Moehrle ",
-        "title": "My first Blog ",
-        "content": "Hello, this is Flo and this is my first blog post. Enjoy! "
-    },
-    {
         "id": 4,
         "author": "Florentine Moehrle ",
         "title": "Titel test",
         "content": "Hello World!"
+    },
+    {
+        "id": 5,
+        "author": "Amelie Schneiderli",
+        "title": "titel 2 ",
+        "content": "test test"
+    },
+    {
+        "id": 6,
+        "author": "Florentine Moehrle ",
+        "title": "Update Post Test",
+        "content": "Is this now updated? update no 2"
     }
 ]
